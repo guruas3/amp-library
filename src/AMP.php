@@ -275,7 +275,7 @@ class AMP
      */
     protected function makeFragmentWhole($body_fragment)
     {
-        $pre_html = '<!DOCTYPE html><html amp><head><meta charset="UTF-8"></head><body>';
+        $pre_html = '<!DOCTYPE html><html ⚡4email><head><meta charset="UTF-8"></head><body>';
         $post_html = '</body></html>';
         return $pre_html . $body_fragment . $post_html;
     }
